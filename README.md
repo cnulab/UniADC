@@ -15,4 +15,31 @@ We propose a novel unified framework for anomaly detection and classification, c
   
 <div align=center><img width="850" src="assets/pipeline.png"/></div>  
   
-## Experiments
+## Experiments  
+### Anomaly Detection and Classification  
+<div align="center"><b>Few-shot Normal Samples Only</b></div>
+<div align=center><img width="850" src="assets/table1.png"/></div>   
+
+<div align="center"><b>Few-shot Normal and Anomaly Samples</b></div>
+<div align=center><img width="850" src="assets/table2.png"/></div>   
+  
+<div align="center"><b>Full-shot Normal Samples with a few Anomaly Samples</b></div>
+<div align=center><img width="400" src="assets/table3.png"/></div>   
+  
+<div align="center"><b>Qualitative Results</b></div>  
+<div align=center><img width="850" src="assets/Fig1.png"/></div>  
+
+
+### Anomaly Synthesis  
+<div align="center"><b>Comparison with Other Methods</b></div>  
+<div align=center><img width="850" src="assets/table4.png"/></div>
+
+<div align="center"><b>Qualitative Results</b></div>  
+<div align=center><img width="850" src="assets/Fig2.png"/></div> 
+
+
+## Citation  
+```
+Coming soon.
+```
+
