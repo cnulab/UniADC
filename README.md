@@ -1,6 +1,6 @@
 # UniADC  
-<a href=''><img src='https://img.shields.io/badge/arXiv-Paper-red'></a>
-> Official Implementation of the paper [UniADC: A Unified Framework for Anomaly Detection and Classification]().  
+<a href='https://arxiv.org/abs/2511.06644'><img src='https://img.shields.io/badge/arXiv-Paper-red'></a>
+> Official Implementation of the paper [UniADC: A Unified Framework for Anomaly Detection and Classification](https://arxiv.org/abs/2511.06644).  
 > **The code will be released upon acceptance.**
  
 ## Introduction
@@ -37,6 +37,13 @@ We propose a novel unified framework for anomaly detection and classification, c
 
 ## Citation  
 ```
-Coming soon.
+@inproceedings{zhang2025uniadc,
+      title={UniADC: A Unified Framework for Anomaly Detection and Classification}, 
+      author={Ximiao Zhang, Min Xu, Zheng Zhang, Junlin Hu, and Xiuzhuang Zhou},
+      year={2025},
+      eprint={2511.06644},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
