@@ -1,0 +1,21 @@
+conditioning_scale: 1.0
+prompt_guidance_scale: 12.5
+batch_size: 8
+candidates_batch_size: 4
+noise_factor: [0.4, 0.5, 0.6]
+
+
+anomaly_type_configs:
+    crack:
+        prompt: [cracked capsule]
+        masks: Small
+    scratch:
+        prompt: [slight scratch]
+    faulty_imprint:
+        prompt: [ font misprint, font error ]
+    poke:
+        prompt: [tiny hole on the capsule]
+        masks: NearCircularEllipse_Small
+    squeeze:
+        prompt: [a capsule deformed by squeezing]
+        masks: Large

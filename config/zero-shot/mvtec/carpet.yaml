@@ -1,0 +1,22 @@
+conditioning_scale: 1.0
+prompt_guidance_scale: 12.5
+batch_size: 8
+candidates_batch_size: 4
+noise_factor: [0.4, 0.5, 0.6]
+
+
+
+anomaly_type_configs:
+    color:
+        prompt: [red stain, black stain]
+    cut:
+        prompt: [tiny crack in carpet]
+    metal_contamination:
+        prompt: [ metal foreign matter ]
+    hole:
+        prompt: [hole]
+        masks: NearCircularEllipse
+    thread:
+        prompt: [a piece of thread]
+        masks: [Line_Medium, Line_Small, EccentricHollowEllipse_Medium, EccentricHollowEllipse_Small]
+

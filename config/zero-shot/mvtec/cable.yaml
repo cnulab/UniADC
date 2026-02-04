@@ -1,0 +1,34 @@
+conditioning_scale: 1.0
+prompt_guidance_scale: 12.5
+batch_size: 8
+candidates_batch_size: 4
+noise_factor: [0.4, 0.5, 0.6]
+
+
+
+anomaly_type_configs:
+    bent_wire:
+        prompt: [bending copper wires]
+    cut_inner_insulation:
+        prompt: [cracks in the internal insulation]
+    cable_swap:
+        prompt: [cable swap]
+        masks: FGI
+
+    poke_insulation:
+        prompt: [puncture-induced holes]
+        disableFG: True
+
+    cut_outer_insulation:
+        prompt: [cracks in the external insulation]
+        disableFG: True
+
+    missing_cable:
+        prompt: [black void due to missing cables]
+        negative_prompt: [cables]
+        masks: FGI
+
+    missing_wire:
+        prompt: [black void due to missing wires]
+        negative_prompt: [copper wires]
+        masks: Large

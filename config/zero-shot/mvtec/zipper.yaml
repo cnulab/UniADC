@@ -1,0 +1,21 @@
+conditioning_scale: 1.0
+prompt_guidance_scale: 12.5
+batch_size: 8
+candidates_batch_size: 4
+noise_factor: [0.4, 0.5, 0.6]
+
+
+anomaly_type_configs:
+    fabric_border:
+        prompt: [border damage of fabric]
+    fabric_interior:
+        prompt: [interior damage of fabric]
+    split_teeth:
+        prompt: [unzipped zipper]
+    broken_teeth:
+        prompt: [damage to the zipper]
+    rough:
+        prompt: [wear on the zipper]
+    squeezed_teeth:
+        prompt: [squeezed zipper]
+

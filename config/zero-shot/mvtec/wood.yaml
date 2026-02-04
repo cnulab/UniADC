@@ -1,0 +1,17 @@
+conditioning_scale: 1.0
+prompt_guidance_scale: 12.5
+batch_size: 8
+candidates_batch_size: 4
+noise_factor: [0.4, 0.5, 0.6]
+
+
+anomaly_type_configs:
+    hole:
+        prompt: [small hole in wood]
+        masks: NearCircularEllipse_Small
+    color:
+        prompt: [red stain, stain]
+    liquid:
+        prompt: [transparent liquid stains]
+    scratch:
+        prompt: [cutting marks in wood]

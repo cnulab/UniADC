@@ -1,0 +1,22 @@
+conditioning_scale: 1.0
+prompt_guidance_scale: 12.5
+batch_size: 8
+candidates_batch_size: 4
+noise_factor: [0.4, 0.5, 0.6]
+
+anomaly_type_configs:
+    manipulated_front:
+        prompt: [damaged screw tip]
+        masks: [Small, Medium]
+    scratch_head:
+        prompt: [damaged screw head]
+        masks: [Small, Medium]
+    scratch_neck:
+        prompt: [damaged screw neck]
+        masks: [Small, Medium]
+    thread_top:
+        prompt: [damaged screw thread]
+        masks: [Small, Medium]
+    thread_side:
+        prompt: [screw thread stripping]
+        masks: [Small, Medium]
