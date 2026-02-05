@@ -7,3 +7,13 @@
 | WFDD  | [XimiaoZhang/VisA-2K](https://huggingface.co/datasets/XimiaoZhang/WFDD)    | [WFDD.zip](https://drive.google.com/file/d/1UXI0VxJYMtH2NH96jhY5sDOCbT7ts5du/view?usp=sharing)  |  
   
 Place the downloaded dataset in this folder.  
+  ```
+    |--data                       
+        |--mvtec
+            |--images
+            |--samples
+        |--wfdd
+            |--images
+            |--samples
+```
+
