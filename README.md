@@ -66,6 +66,38 @@ If you cannot use `download.sh` for automatic downloading, you can download manu
 | MVTec-FS | [XimiaoZhang/MVTec-FS](https://huggingface.co/datasets/XimiaoZhang/MVTec-FS)  | [MVTec-FS.zip](https://drive.google.com/file/d/1Q-q21nVAcsSVyDD64AjAUoOfp5Flh__A/view?usp=sharing)  |
 | WFDD  | [XimiaoZhang/VisA-2K](https://huggingface.co/datasets/XimiaoZhang/WFDD)    | [WFDD.zip](https://drive.google.com/file/d/1UXI0VxJYMtH2NH96jhY5sDOCbT7ts5du/view?usp=sharing)  |  
   
+Place the downloaded dataset in the `data` folder.  
+  
+### Zero-shot Anomaly Synthesis (Anomaly Prior Guidance) 
+Run the following command to experience UniADC's zero-shot anomaly synthesis feature via Gradio:  
+```
+$ python zero_shot_gen_app.py
+```
+<div align=center><img width="700" src="assets/fig-zero-syn.png"/></div>  
+
+### Few-shot Anomaly Synthesis (Anomaly Sample Guidance) 
+Run the following command to experience UniADC's few-shot anomaly synthesis feature via Gradio:  
+```
+$ python few_shot_gen_app.py
+```
+<div align=center><img width="700" src="assets/fig-few-syn.png"/></div>  
+
+### Anomaly synthesis and discriminator training
+For zero-shot anomaly detection and classification: 
+```
+$ sh run_zero.sh
+```
+  
+For few-shot anomaly detection and classification: 
+```
+$ sh run_few.sh
+```
+  
+For model testing:  
+```
+$ python test.py --checkpoint_path <your-checkpoint-path>
+```
+  
 ## Citation  
 ```
 @inproceedings{zhang2025uniadc,
