@@ -102,7 +102,7 @@ $ python test.py --checkpoint_path <your-checkpoint-path>
 ```
 @inproceedings{zhang2025uniadc,
       title={UniADC: A Unified Framework for Anomaly Detection and Classification}, 
-      author={Ximiao Zhang, Min Xu, Zheng Zhang, Junlin Hu, and Xiuzhuang Zhou},
+      author={Zhang, Ximiao and Xu, Min and Zhang, Zheng and Tan, Yap-Peng and Zhou, Xiuzhuang},
       year={2025},
       eprint={2511.06644},
       archivePrefix={arXiv},
